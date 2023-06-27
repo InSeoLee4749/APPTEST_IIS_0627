@@ -58,14 +58,24 @@ const Portfolio = () => {
             </div>
             <div id="contact" className="container bg-light">
                 <div className="container">
-                    <div className="pt-3 justify-content-center">
-                        <form action="">
+                    <div className="p-3 justify-content-center">
+                        <form action="" className="form text-center">
                             성 :{" "}
-                            <input type="text" name="first_name" className />
+                            <input
+                                type="text"
+                                name="first_name"
+                                className="m-2"
+                            />
                             <br />
-                            이름 : <input type="text" name="last_name" />
+                            이름 :{" "}
+                            <input
+                                type="text"
+                                name="last_name"
+                                className="m-2"
+                            />
                             <br />
-                            번호 : <input type="text" name="phone" />
+                            번호 :{" "}
+                            <input type="text" name="phone" className="m-2" />
                         </form>
                     </div>
                 </div>
