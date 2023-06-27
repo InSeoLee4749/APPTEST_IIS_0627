@@ -38,6 +38,10 @@ li {
     }
 }
 #about {
-    .about_bg {
+    .container {
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
     }
 }

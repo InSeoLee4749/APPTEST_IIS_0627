@@ -37,18 +37,18 @@ const Portfolio = () => {
                     </ul>
                 </div>
             </header>
-            <div id="slide" className="bg-light"></div>
-            <div id="about" className="bg-warning">
+            <div id="slide" className="container bg-light"></div>
+            <div id="about" className="container bg-light">
                 <div className="container">
                     <div>
                         <a href="#">
-                            <img src="" />
+                            <img src="img/about_bg.jpg" />
                         </a>
                     </div>
                 </div>
             </div>
-            <div id="review" className="">
-                <div className="container">
+            <div id="review" className="container">
+                <div>
                     <div className="row">
                         <div className="col-4 bg-body-secondary">1</div>
                         <div className="col-4 bg-dark-subtle">2</div>
@@ -56,9 +56,9 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div id="contact" className="bg-light">
+            <div id="contact" className="container bg-light">
                 <div className="container">
-                    <div className="pt-3">
+                    <div className="pt-3 justify-content-center">
                         <form action="">
                             성 :{" "}
                             <input type="text" name="first_name" className />
